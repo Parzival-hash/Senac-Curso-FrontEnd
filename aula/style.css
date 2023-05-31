@@ -1,0 +1,84 @@
+*{
+    background-color: #18181b;
+}
+
+.cabeca{
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 100px;
+    
+    cursor: pointer;
+    
+
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;    
+    animation-play-state: running;
+}
+
+@keyframes animation {
+    25% {background-color:red ;}
+    50% {background-color: yellow;}
+    75% {background-color: blue;}
+    100% {background-color: red;}
+} 
+
+.corpo{
+    width: 100px;
+    height: 1000px;
+
+    margin-left: auto;
+    margin-right: auto; 
+    
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;    
+    animation-play-state: running;
+
+}
+
+.pernaDireita{
+    width: 100px;
+    height: 1000px;
+
+    margin-left: 1450px;
+    margin-right: auto;
+
+    -webkit-transform: skew(20deg); 
+    -ms-transform: skew(20deg); 
+    transform: skew(20deg);
+
+     animation-name: animation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;    
+    animation-play-state: running;
+
+ 
+}
+
+.pernaEsquerda{
+    width: 100px;
+    height: 1000px;
+
+    margin-left: 1450px;
+    margin-right: auto;
+
+    -webkit-transform: skew(-20deg); 
+    -ms-transform: skew(-20deg); 
+    transform: skew(-20deg);
+
+    background-color: aliceblue;
+}
+
+.total{
+    display: fl;
+}
